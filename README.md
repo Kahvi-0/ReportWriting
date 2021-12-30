@@ -10,3 +10,8 @@ Template from: https://github.com/noraj/OSCP-Exam-Report-Template-Markdown/blob/
 2. sudo apt-get install texlive-full
 
 3. Move the eisvogel.latex file to /usr/share/pandoc/data/templates/
+
+
+## Generate Report
+
+./generate_report.sh <filename>.md OutputFilename.pdf
